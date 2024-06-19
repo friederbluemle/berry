@@ -257,7 +257,7 @@ export default class InitCommand extends BaseCommand {
           cwd: this.context.cwd,
         });
 
-        await execUtils.execvp(`git`, [`commit`, `--allow-empty`, `-m`, `First commit`], {
+        await execUtils.execvp(`git`, [`commit`, `--allow-empty`, `-m`, `Initial commit`], {
           cwd: this.context.cwd,
         });
       }
